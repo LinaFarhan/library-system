@@ -9,7 +9,7 @@ class Librarian extends User {
 
     public function interactWithLibrary() {
  
-        return "📖 {$this->name}  can add or remove book";
+        return "  {$this->name}  can add or remove book";
  
     }
 }
