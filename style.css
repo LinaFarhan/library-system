@@ -1,4 +1,4 @@
-/* القالب العام */
+ 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f4f7f8;
@@ -10,7 +10,7 @@ body {
     justify-content: center;
 }
 
-/* الحاوية الرئيسية */
+ 
 .container {
     width: 1000px;
     margin: 40px 0;
@@ -20,14 +20,14 @@ body {
     box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
 
-/* العنوان */
+ 
 h1 {
     text-align: center;
     color: #333;
     margin-bottom: 30px;
 }
 
-/* نماذج الإدخال */
+ 
 .form-container {
     margin-bottom: 25px;
 }
@@ -66,8 +66,7 @@ button {
 button:hover {
     background-color: #242425;
 }
-
-/* جدول الكتب */
+ 
 .table-container {
     overflow-x: auto;
 }
