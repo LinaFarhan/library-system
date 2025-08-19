@@ -6,14 +6,7 @@ class Book {
    
     private string $title;
     private string $author;
-    private bool $isAvailable = true;  
-
- 
- 
-   
-    private string $title;
-    private string $author;
-    private bool $isAvailable = true;  
+    private bool $isAvailable = true;   
 
  
     public function __construct(string $title, string $author) {
@@ -21,8 +14,7 @@ class Book {
         $this->author = $author;
     }
 
- 
- 
+
  
     public function getTitle(): string {
         return $this->title;
@@ -42,13 +34,6 @@ class Book {
         return false; 
     }
  
-    public function borrow(): bool {
-        if ($this->isAvailable) {
-            $this->isAvailable = false;
-            return true; 
-        }
-        return false;  
-    }
  
     public function returnBook(): void {
         $this->isAvailable = true;
