@@ -1,0 +1,15 @@
+{
+    "name": "wiam/library-system",
+    "autoload": {
+        "psr-4": {
+            "LibrarySystem\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "WiamRaghe",
+            "email": "wiamraghe@gmail.com"
+        }
+    ],
+    "require": {}
+}
