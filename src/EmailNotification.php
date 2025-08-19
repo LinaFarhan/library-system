@@ -6,7 +6,7 @@ class EmailNotification implements NotificationInterface {
  
         echo "OK send $recipient: $message<br>";
  
-        echo "ok send $recipient: $message<br>";
+     
  
     }
 }
